@@ -74,5 +74,5 @@ for i, j in enumerate(np.unique(y_set)):
 plt.title('Classifier (Test set)')
 plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
-plt.legend(key)
+plt.legend()
 plt.show()
